@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "contracts/agent-guard-wallet",
+    "contracts/passkey-validator",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
