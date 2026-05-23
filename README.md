@@ -148,3 +148,6 @@ const guard = new AgentGuardWallet({
 
 const allowed = await guard.checkSpendingLimit("USDC", "10");
 ```
+## Security
+
+Please report vulnerabilities using the process in [SECURITY.md](./SECURITY.md). For payment, passkey, wallet, or contract issues, avoid posting exploit details publicly until maintainers have a private triage path.
